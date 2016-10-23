@@ -43,9 +43,6 @@ static BOOL flag = false ;
     
     UIBarButtonItem *item2 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:nil action:nil];
     //此处保留addtarget方法,点击右上方的+号进入添加界面
-    //我在这里随便做点修改来测试git
-    int abc=0;
-    int def=1;
     
     
     topBar.items = [NSArray arrayWithObjects:item1,item2,nil];
